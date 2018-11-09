@@ -1,0 +1,94 @@
+body {
+    background: $primary-color;
+}
+
+a {
+    color: $txt-wht;
+}
+
+.form-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 60px auto;
+    padding: 30px;
+form {
+  padding-bottom: 20px;
+  padding: 30px;
+  background: rgb(252, 222, 5);
+}
+input[type=checkbox], input[type=radio] {
+    margin: 7px 18px 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+#CarBrand, #CarModel, #country {
+    height: 50px;
+}
+.tab-group {   
+    list-style: none;
+    padding: 0%;
+}
+.tab-group a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background: $primary-color;
+    color: $txt-wht;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tab-group .active a {
+    background: rgb(252, 222, 5);
+    color: #000000;      
+}
+.prv {
+    color: #337ab7;
+}
+#btn {
+    width: 100px;
+    height: 37px;
+    cursor: pointer;
+    border: none;
+}
+
+#send {
+
+
+}
+
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 13px 15px 13px;
+    margin: 15px;
+    border: none;
+    border-radius: 0px;
+    text-indent: 5px;
+    font-size: 14px;
+    resize: vertical;
+    outline: none;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .tab-group a {
+      font-size: 16px;
+    }   
+
+} 
+
+
+// forn[name="info"] {
+    
+// }
