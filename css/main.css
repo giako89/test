@@ -1,81 +1,40 @@
+.header {
+  display: flex; }
+  .header__logo img {
+    float: left;
+    cursor: pointer; }
+  .header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #5f4c4c; }
+    .header__nav__menu {
+      display: flex;
+      align-items: center; }
+      .header__nav__menu li {
+        font: normal 16px 'Montserrat';
+        list-style: none;
+        padding: 0 40px; }
+      .header__nav__menu a {
+        text-decoration: none;
+        color: #ffffff; }
+
 body {
-  background: #000;
-}
+  background: #7395AE; }
 
-a {
-  color: #fff;
-}
+.title {
+  text-align: center; }
 
-.form-container {
-  max-width: 1100px;
-  width: 100%;
-  margin: 60px auto;
-  padding: 30px;
-}
-.form-container form {
-  padding-bottom: 20px;
-  padding: 30px;
-  background: #fcde05;
-}
-.form-container input[type=checkbox], .form-container input[type=radio] {
-  margin: 7px 18px 0;
-  margin-top: 1px\9 ;
-  line-height: normal;
-}
-.form-container #CarBrand, .form-container #CarModel, .form-container #country {
-  height: 50px;
-}
-.form-container .tab-group {
-  list-style: none;
-  padding: 0%;
-}
-.form-container .tab-group a {
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  background: #000;
-  color: #fff;
-  font-size: 26px;
-  float: left;
-  width: 50%;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.5s ease;
-}
-.form-container .tab-group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.form-container .tab-group .active a {
-  background: #fcde05;
-  color: #000000;
-}
-.form-container .prv {
-  color: #337ab7;
-}
-.form-container #btn {
-  width: 100px;
-  height: 37px;
-  cursor: pointer;
-  border: none;
-}
-input[type=text], select, textarea {
-  width: 90%;
-  padding: 13px 15px 13px;
-  margin: 15px;
-  border: none;
-  border-radius: 0px;
-  text-indent: 5px;
-  font-size: 14px;
-  resize: vertical;
-  outline: none;
-}
-
-@media screen and (max-width: 768px) {
-  .tab-group a {
-    font-size: 16px;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+.container {
+  display: flex;
+  justify-content: center; }
+  .container__tab {
+    display: flex;
+    background: darkgray;
+    list-style: none; }
+    .container__tab a {
+      text-decoration: none;
+      text-transform: uppercase; }
+    .container__tab .tablinks {
+      padding: 15px 15px;
+      cursor: pointer; }

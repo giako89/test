@@ -1,1 +1,36 @@
+.header {
+  display: flex;
 
+  &__logo {
+    img {
+      float: left;
+      cursor: pointer;
+    }
+  }
+
+  &__nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #5f4c4c;
+
+    &__menu {
+      display: flex;
+      align-items: center;
+
+      li {
+        font: normal 16px 'Montserrat';
+        list-style: none;
+        padding: 0 40px;
+
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+
+  }
+
+}
